@@ -14,6 +14,10 @@ public class PowerCard : MonoBehaviour
    public void HandleClick()
    {
       var manager = GameObject.Find("Manager").GetComponent<GameManager>();
+      if(manager.state != GameState.Play) 
+      {
+         return;
+      }
       if (manager != null && isFlipped == false)
       {
          SetShading(true);

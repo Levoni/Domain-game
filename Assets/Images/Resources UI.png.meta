@@ -1,0 +1,2161 @@
+fileFormatVersion: 2
+guid: 6caad210f5143264db450eb5e5b8e92f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8733793423981992166
+    second: Resources UI_0
+  - first:
+      213: 2863352060581266722
+    second: Resources UI_1
+  - first:
+      213: -8015820006085317768
+    second: Resources UI_2
+  - first:
+      213: 3676727137760305833
+    second: Resources UI_3
+  - first:
+      213: -8450928045509722289
+    second: Resources UI_4
+  - first:
+      213: -4728039300961423326
+    second: Resources UI_5
+  - first:
+      213: 2293508929326161834
+    second: Resources UI_6
+  - first:
+      213: -4394769600101765382
+    second: Resources UI_7
+  - first:
+      213: 8675637989114513610
+    second: Resources UI_8
+  - first:
+      213: -6427260857301827242
+    second: Resources UI_9
+  - first:
+      213: 2024641420036166499
+    second: Resources UI_10
+  - first:
+      213: -4529556788945539533
+    second: Resources UI_11
+  - first:
+      213: -1306801180854570471
+    second: Resources UI_12
+  - first:
+      213: 6620971205752456279
+    second: Resources UI_13
+  - first:
+      213: -3895306280318261249
+    second: Resources UI_14
+  - first:
+      213: 638446465180602542
+    second: Resources UI_15
+  - first:
+      213: -849850265486480889
+    second: Resources UI_16
+  - first:
+      213: -3737376899574966973
+    second: Resources UI_17
+  - first:
+      213: -2420137077178200336
+    second: Resources UI_18
+  - first:
+      213: -2125627619216794944
+    second: Resources UI_19
+  - first:
+      213: 7159221974845658705
+    second: Resources UI_20
+  - first:
+      213: -8558652431916525929
+    second: Resources UI_21
+  - first:
+      213: -4830324263129495152
+    second: Resources UI_22
+  - first:
+      213: -6435098593279907197
+    second: Resources UI_23
+  - first:
+      213: 5891410914614954946
+    second: Resources UI_24
+  - first:
+      213: -2641417384305114858
+    second: Resources UI_25
+  - first:
+      213: -8346437856250064127
+    second: Resources UI_26
+  - first:
+      213: -8931676492755243841
+    second: Resources UI_27
+  - first:
+      213: -8436213452609774323
+    second: Resources UI_28
+  - first:
+      213: -5478975177446011388
+    second: Resources UI_29
+  - first:
+      213: -6269846388816477364
+    second: Resources UI_30
+  - first:
+      213: 8848812531346973338
+    second: Resources UI_31
+  - first:
+      213: 2342217627675862068
+    second: Resources UI_32
+  - first:
+      213: -6031891666470199219
+    second: Resources UI_33
+  - first:
+      213: 2731968718931340756
+    second: Resources UI_34
+  - first:
+      213: 8717480060297442082
+    second: Resources UI_35
+  - first:
+      213: 2319281972798624795
+    second: Resources UI_36
+  - first:
+      213: -6993073219177200675
+    second: Resources UI_37
+  - first:
+      213: 3771256214714689957
+    second: Resources UI_38
+  - first:
+      213: -278386182687744375
+    second: Resources UI_39
+  - first:
+      213: -7178659093429213851
+    second: Resources UI_40
+  - first:
+      213: 3589325340854208462
+    second: Resources UI_41
+  - first:
+      213: 8159740154470757524
+    second: Resources UI_42
+  - first:
+      213: 7422930926123073798
+    second: Resources UI_43
+  - first:
+      213: 7683338939160700427
+    second: Resources UI_44
+  - first:
+      213: -952066228871467740
+    second: Resources UI_45
+  - first:
+      213: -585211092250341594
+    second: Resources UI_46
+  - first:
+      213: 8127046966204779448
+    second: Resources UI_47
+  - first:
+      213: -4521437894395699286
+    second: Resources UI_48
+  - first:
+      213: -5709068914173882534
+    second: Resources UI_49
+  - first:
+      213: 2120482970272537594
+    second: Resources UI_50
+  - first:
+      213: -1845000908182646153
+    second: Resources UI_51
+  - first:
+      213: 2792312165088785017
+    second: Resources UI_52
+  - first:
+      213: 8244745615704973488
+    second: Resources UI_53
+  - first:
+      213: 8055516932482253027
+    second: Resources UI_54
+  - first:
+      213: 3521474548254405675
+    second: Resources UI_55
+  - first:
+      213: 7506165896128505547
+    second: Resources UI_56
+  - first:
+      213: -2189312828636910342
+    second: Resources UI_57
+  - first:
+      213: -7076135473942069066
+    second: Resources UI_58
+  - first:
+      213: 4315424559756802627
+    second: Resources UI_59
+  - first:
+      213: 3810075544749412254
+    second: Resources UI_60
+  - first:
+      213: -8460517187191285633
+    second: Resources UI_61
+  - first:
+      213: -5385720488852678573
+    second: Resources UI_62
+  - first:
+      213: 8659603237538689961
+    second: Resources UI_63
+  - first:
+      213: 6305216083639474396
+    second: Resources UI_64
+  - first:
+      213: -1847906356017781392
+    second: Resources UI_65
+  - first:
+      213: -6559021178523500881
+    second: Resources UI_66
+  - first:
+      213: 7543379503909488596
+    second: Resources UI_67
+  - first:
+      213: -3589540213787733428
+    second: Resources UI_68
+  - first:
+      213: -8297572381061012395
+    second: Resources UI_69
+  - first:
+      213: 2106576064147891698
+    second: Resources UI_70
+  - first:
+      213: -3551209189742149552
+    second: Resources UI_71
+  - first:
+      213: -2811638099298381422
+    second: Resources UI_72
+  - first:
+      213: -4996040695390650027
+    second: Resources UI_73
+  - first:
+      213: -7889421062290253291
+    second: Resources UI_74
+  - first:
+      213: -4621288209012647712
+    second: Resources UI_75
+  - first:
+      213: 4863677704429436824
+    second: Resources UI_76
+  - first:
+      213: -4053871851099656618
+    second: Resources UI_77
+  - first:
+      213: -8373787643505452833
+    second: Resources UI_78
+  - first:
+      213: 8401894493699884367
+    second: Resources UI_79
+  - first:
+      213: -4979830461258377838
+    second: Resources UI_80
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Resources UI_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 468
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1729ed87255bc680800000000000000
+      internalID: -8733793423981992166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 468
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22544d5478bacb720800000000000000
+      internalID: 2863352060581266722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 468
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ba0d19c2612c090800000000000000
+      internalID: -8015820006085317768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 468
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2ed360adb560330800000000000000
+      internalID: 3676727137760305833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 468
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fb101b7b548ba80800000000000000
+      internalID: -8450928045509722289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 468
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220bb165e41a26eb0800000000000000
+      internalID: -4728039300961423326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 460
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf1cad383e24df10800000000000000
+      internalID: 2293508929326161834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 459
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afeaf3c4554a203c0800000000000000
+      internalID: -4394769600101765382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_8
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 491
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac80e0d19ce066870800000000000000
+      internalID: 8675637989114513610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 396
+        width: 51
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65180c9ad48cdc6a0800000000000000
+      internalID: -6427260857301827242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_10
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 392
+        width: 43
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3635ccef4a8f81c10800000000000000
+      internalID: 2024641420036166499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 459
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e21fc5918c321c0800000000000000
+      internalID: -4529556788945539533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 460
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9123a1fef3f4ddde0800000000000000
+      internalID: -1306801180854570471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_13
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 459
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75407f27b3a62eb50800000000000000
+      internalID: 6620971205752456279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_14
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 460
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff72846839711f9c0800000000000000
+      internalID: -3895306280318261249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_15
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 459
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0913d6da73cd800800000000000000
+      internalID: 638446465180602542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 373
+        width: 72
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a286dafa9b434f0800000000000000
+      internalID: -849850265486480889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_17
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 386
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3455515e28b222cc0800000000000000
+      internalID: -3737376899574966973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_18
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 375
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe8a079622f96ed0800000000000000
+      internalID: -2420137077178200336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_19
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 388
+        width: 23
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cad2df31f04082e0800000000000000
+      internalID: -2125627619216794944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_20
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 432
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15698d6747aaa5360800000000000000
+      internalID: 7159221974845658705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_21
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 384
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796159775fe893980800000000000000
+      internalID: -8558652431916525929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 419
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0994732ccad37fcb0800000000000000
+      internalID: -4830324263129495152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 324
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a6fec8cefe1b6a0800000000000000
+      internalID: -6435098593279907197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_24
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 325
+        width: 8
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbcb77430f72c150800000000000000
+      internalID: 5891410914614954946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_25
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 356
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611c3f042ecc75bd0800000000000000
+      internalID: -2641417384305114858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 315
+        width: 7
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1039756bdfe7b2c80800000000000000
+      internalID: -8346437856250064127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_27
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 315
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbced984d8f4c0480800000000000000
+      internalID: -8931676492755243841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_28
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 324
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d92d3df8c8cea80800000000000000
+      internalID: -8436213452609774323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_29
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 315
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ec52fda15c6f3b0800000000000000
+      internalID: -5478975177446011388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 315
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43045eade70df8a0800000000000000
+      internalID: -6269846388816477364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_31
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 325
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9226fe3d1c4dca70800000000000000
+      internalID: 8848812531346973338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_32
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 324
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4342744d58a318020800000000000000
+      internalID: 2342217627675862068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_33
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 324
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40a768dc7a6a4ca0800000000000000
+      internalID: -6031891666470199219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_34
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 315
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dda1654317e9e520800000000000000
+      internalID: 2731968718931340756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_35
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 346
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223749a7de5baf870800000000000000
+      internalID: 8717480060297442082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_36
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 265
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1411aa8aaebf2020800000000000000
+      internalID: 2319281972798624795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_37
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 254
+        width: 31
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd345a245fc93fe90800000000000000
+      internalID: -6993073219177200675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_38
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 315
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9ad0bdb81365430800000000000000
+      internalID: 3771256214714689957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_39
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 315
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e1586ed39f22cf0800000000000000
+      internalID: -278386182687744375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_40
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 315
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5652684b697406c90800000000000000
+      internalID: -7178659093429213851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_41
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 315
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec74ce46168dfc130800000000000000
+      internalID: 3589325340854208462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_42
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 315
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49478b630783d3170800000000000000
+      internalID: 8159740154470757524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_43
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 235
+        width: 72
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 601c3d3595c830760800000000000000
+      internalID: 7422930926123073798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_44
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 249
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06a99d9e04b0aa60800000000000000
+      internalID: 7683338939160700427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_45
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 248
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d68712fc499c2f0800000000000000
+      internalID: -952066228871467740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_46
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 245
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fccc7bc99e0e7f0800000000000000
+      internalID: -585211092250341594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_47
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 264
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb4d85282219c070800000000000000
+      internalID: 8127046966204779448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_48
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 245
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafdd8ec030a041c0800000000000000
+      internalID: -4521437894395699286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_49
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 248
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fc07c021055c0b0800000000000000
+      internalID: -5709068914173882534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 248
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb1c53d6087d6d10800000000000000
+      internalID: 2120482970272537594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_51
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 176
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7721081037d3566e0800000000000000
+      internalID: -1845000908182646153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_52
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 208
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9727e1eae1940c620800000000000000
+      internalID: 2792312165088785017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_53
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 176
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0ed8774783b6270800000000000000
+      internalID: 8244745615704973488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_54
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 208
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0cfba58f1facf60800000000000000
+      internalID: 8055516932482253027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_55
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 178
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24784ea17aced030800000000000000
+      internalID: 3521474548254405675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_56
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 177
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc624e7fc124b2860800000000000000
+      internalID: 7506165896128505547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_57
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 178
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc24e2f49ffd91e0800000000000000
+      internalID: -2189312828636910342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_58
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 168
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0842507448ccd90800000000000000
+      internalID: -7076135473942069066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_59
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 177
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34afc43e5c773eb30800000000000000
+      internalID: 4315424559756802627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_60
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 177
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f0134758b10e430800000000000000
+      internalID: 3810075544749412254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_61
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 106
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f785069a174369a80800000000000000
+      internalID: -8460517187191285633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_62
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 177
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358946a00c31245b0800000000000000
+      internalID: -5385720488852678573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_63
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 177
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3f05593471d2870800000000000000
+      internalID: 8659603237538689961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_64
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 177
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd819612f90a08750800000000000000
+      internalID: 6305216083639474396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_65
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 176
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075af57b5faea56e0800000000000000
+      internalID: -1847906356017781392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_66
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 177
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeb7d34dfca9f4a0800000000000000
+      internalID: -6559021178523500881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_67
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 176
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7cc7831b77fa860800000000000000
+      internalID: 7543379503909488596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_68
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 128
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42d33a91346f2ec0800000000000000
+      internalID: -3589540213787733428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_69
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 177
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55424c0c1e919dc80800000000000000
+      internalID: -8297572381061012395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_70
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 103
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f520ebe4cf0c3d10800000000000000
+      internalID: 2106576064147891698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_71
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 123
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050015a9e0297bec0800000000000000
+      internalID: -3551209189742149552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_72
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 104
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2919d5e9b0e0bf8d0800000000000000
+      internalID: -2811638099298381422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_73
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 108
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55148db257f7aaab0800000000000000
+      internalID: -4996040695390650027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_74
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 108
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a54b20855238290800000000000000
+      internalID: -7889421062290253291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_75
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 108
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e89919cbd2eddfb0800000000000000
+      internalID: -4621288209012647712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_76
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 108
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ff0827a114f7340800000000000000
+      internalID: 4863677704429436824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_77
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 101
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65eef3e9701cdb7c0800000000000000
+      internalID: -4053871851099656618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_78
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 120
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd85d4421845acb80800000000000000
+      internalID: -8373787643505452833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_79
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 101
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45ca41e686899470800000000000000
+      internalID: 8401894493699884367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Resources UI_80
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 104
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295560b649614eab0800000000000000
+      internalID: -4979830461258377838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Resources UI_0: -8733793423981992166
+      Resources UI_1: 2863352060581266722
+      Resources UI_10: 2024641420036166499
+      Resources UI_11: -4529556788945539533
+      Resources UI_12: -1306801180854570471
+      Resources UI_13: 6620971205752456279
+      Resources UI_14: -3895306280318261249
+      Resources UI_15: 638446465180602542
+      Resources UI_16: -849850265486480889
+      Resources UI_17: -3737376899574966973
+      Resources UI_18: -2420137077178200336
+      Resources UI_19: -2125627619216794944
+      Resources UI_2: -8015820006085317768
+      Resources UI_20: 7159221974845658705
+      Resources UI_21: -8558652431916525929
+      Resources UI_22: -4830324263129495152
+      Resources UI_23: -6435098593279907197
+      Resources UI_24: 5891410914614954946
+      Resources UI_25: -2641417384305114858
+      Resources UI_26: -8346437856250064127
+      Resources UI_27: -8931676492755243841
+      Resources UI_28: -8436213452609774323
+      Resources UI_29: -5478975177446011388
+      Resources UI_3: 3676727137760305833
+      Resources UI_30: -6269846388816477364
+      Resources UI_31: 8848812531346973338
+      Resources UI_32: 2342217627675862068
+      Resources UI_33: -6031891666470199219
+      Resources UI_34: 2731968718931340756
+      Resources UI_35: 8717480060297442082
+      Resources UI_36: 2319281972798624795
+      Resources UI_37: -6993073219177200675
+      Resources UI_38: 3771256214714689957
+      Resources UI_39: -278386182687744375
+      Resources UI_4: -8450928045509722289
+      Resources UI_40: -7178659093429213851
+      Resources UI_41: 3589325340854208462
+      Resources UI_42: 8159740154470757524
+      Resources UI_43: 7422930926123073798
+      Resources UI_44: 7683338939160700427
+      Resources UI_45: -952066228871467740
+      Resources UI_46: -585211092250341594
+      Resources UI_47: 8127046966204779448
+      Resources UI_48: -4521437894395699286
+      Resources UI_49: -5709068914173882534
+      Resources UI_5: -4728039300961423326
+      Resources UI_50: 2120482970272537594
+      Resources UI_51: -1845000908182646153
+      Resources UI_52: 2792312165088785017
+      Resources UI_53: 8244745615704973488
+      Resources UI_54: 8055516932482253027
+      Resources UI_55: 3521474548254405675
+      Resources UI_56: 7506165896128505547
+      Resources UI_57: -2189312828636910342
+      Resources UI_58: -7076135473942069066
+      Resources UI_59: 4315424559756802627
+      Resources UI_6: 2293508929326161834
+      Resources UI_60: 3810075544749412254
+      Resources UI_61: -8460517187191285633
+      Resources UI_62: -5385720488852678573
+      Resources UI_63: 8659603237538689961
+      Resources UI_64: 6305216083639474396
+      Resources UI_65: -1847906356017781392
+      Resources UI_66: -6559021178523500881
+      Resources UI_67: 7543379503909488596
+      Resources UI_68: -3589540213787733428
+      Resources UI_69: -8297572381061012395
+      Resources UI_7: -4394769600101765382
+      Resources UI_70: 2106576064147891698
+      Resources UI_71: -3551209189742149552
+      Resources UI_72: -2811638099298381422
+      Resources UI_73: -4996040695390650027
+      Resources UI_74: -7889421062290253291
+      Resources UI_75: -4621288209012647712
+      Resources UI_76: 4863677704429436824
+      Resources UI_77: -4053871851099656618
+      Resources UI_78: -8373787643505452833
+      Resources UI_79: 8401894493699884367
+      Resources UI_8: 8675637989114513610
+      Resources UI_80: -4979830461258377838
+      Resources UI_9: -6427260857301827242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

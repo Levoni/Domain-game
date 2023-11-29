@@ -1,0 +1,1136 @@
+fileFormatVersion: 2
+guid: dcebf2e7c938dcf43ab2c598115edb6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4366416849187003973
+    second: Influence UI_0
+  - first:
+      213: -5335824641025110486
+    second: Influence UI_1
+  - first:
+      213: -3767809202317643111
+    second: Influence UI_2
+  - first:
+      213: -7058029282685804434
+    second: Influence UI_3
+  - first:
+      213: 2193792919287341316
+    second: Influence UI_4
+  - first:
+      213: -3369958902031214574
+    second: Influence UI_5
+  - first:
+      213: 8012457773725819164
+    second: Influence UI_6
+  - first:
+      213: 3930518901134348520
+    second: Influence UI_7
+  - first:
+      213: -7706688621482535850
+    second: Influence UI_8
+  - first:
+      213: -8688606587166755313
+    second: Influence UI_9
+  - first:
+      213: 8735870790627062675
+    second: Influence UI_10
+  - first:
+      213: -9099024392026715138
+    second: Influence UI_11
+  - first:
+      213: 2166320147219815066
+    second: Influence UI_12
+  - first:
+      213: 5766861777215757473
+    second: Influence UI_13
+  - first:
+      213: 3637302792397131262
+    second: Influence UI_14
+  - first:
+      213: 6658949571923880379
+    second: Influence UI_15
+  - first:
+      213: -1572378809951618389
+    second: Influence UI_16
+  - first:
+      213: -3293870390567458806
+    second: Influence UI_17
+  - first:
+      213: -7764325834314052600
+    second: Influence UI_18
+  - first:
+      213: 8006074562209004688
+    second: Influence UI_19
+  - first:
+      213: 4291051772711054424
+    second: Influence UI_20
+  - first:
+      213: -1789215486217236945
+    second: Influence UI_21
+  - first:
+      213: 3836410881025383243
+    second: Influence UI_22
+  - first:
+      213: 6705558741942795183
+    second: Influence UI_23
+  - first:
+      213: 8639324288828729745
+    second: Influence UI_24
+  - first:
+      213: -8943174377073764199
+    second: Influence UI_25
+  - first:
+      213: -2199424596525791573
+    second: Influence UI_26
+  - first:
+      213: 2847813637056625778
+    second: Influence UI_27
+  - first:
+      213: 7671728565336507582
+    second: Influence UI_28
+  - first:
+      213: 4847246309397849333
+    second: Influence UI_29
+  - first:
+      213: 8499164818949635748
+    second: Influence UI_30
+  - first:
+      213: 6852541254933044650
+    second: Influence UI_31
+  - first:
+      213: -3540909243674230842
+    second: Influence UI_32
+  - first:
+      213: 1939977817257024662
+    second: Influence UI_33
+  - first:
+      213: -2026637923959251461
+    second: Influence UI_34
+  - first:
+      213: 2965829529017713854
+    second: Influence UI_35
+  - first:
+      213: -7980430550914501281
+    second: Influence UI_36
+  - first:
+      213: -4352518803051187690
+    second: Influence UI_37
+  - first:
+      213: -1076334480500798711
+    second: Influence UI_38
+  - first:
+      213: 44833606271375801
+    second: Influence UI_39
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Influence UI_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 193
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1adea820f5763c0800000000000000
+      internalID: -4366416849187003973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 193
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e0ce762c753f5b0800000000000000
+      internalID: -5335824641025110486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 193
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992b8624e7d06bbc0800000000000000
+      internalID: -3767809202317643111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 193
+        width: 6
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60253f23c7dc0e90800000000000000
+      internalID: -7058029282685804434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 193
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401a3e0790be17e10800000000000000
+      internalID: 2193792919287341316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 193
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21893c0cb308b31d0800000000000000
+      internalID: -3369958902031214574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 193
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11aeb4b4e7f13f60800000000000000
+      internalID: 8012457773725819164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 193
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e05215ad120c8630800000000000000
+      internalID: 3930518901134348520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 193
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6541df1d7875c0590800000000000000
+      internalID: -7706688621482535850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 213
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f067ecad75edb6780800000000000000
+      internalID: -8688606587166755313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 193
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393790f033c0c3970800000000000000
+      internalID: 8735870790627062675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 193
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb02ae2685c9b180800000000000000
+      internalID: -9099024392026715138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 193
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a1fcc32b0501e10800000000000000
+      internalID: 2166320147219815066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 193
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac19b37b32080050800000000000000
+      internalID: 5766861777215757473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 107
+        width: 46
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd0e515e9b4a7230800000000000000
+      internalID: 3637302792397131262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 85
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb923c3ea57596c50800000000000000
+      internalID: 6658949571923880379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa7b7c9dc9cd2ae0800000000000000
+      internalID: -1572378809951618389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 52
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08ac0ad452d942d0800000000000000
+      internalID: -3293870390567458806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 71
+        width: 90
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c82557ac29f3490800000000000000
+      internalID: -7764325834314052600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_19
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 42
+        width: 44
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c32c5756a4b1f60800000000000000
+      internalID: 8006074562209004688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_20
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 28
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ca0413ad0ec8b30800000000000000
+      internalID: 4291051772711054424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 59
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ec465befd6b27e0800000000000000
+      internalID: -1789215486217236945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 28
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b16ffbe5bad3530800000000000000
+      internalID: 3836410881025383243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 28
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabf302f52eee0d50800000000000000
+      internalID: 6705558741942795183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_24
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 28
+        width: 7
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1996a07eaab05e770800000000000000
+      internalID: 8639324288828729745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 28
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998942a794673e380800000000000000
+      internalID: -8943174377073764199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 28
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6c2d58bf21a71e0800000000000000
+      internalID: -2199424596525791573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_27
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 10
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cf54f1a67758720800000000000000
+      internalID: 2847813637056625778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_28
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 10
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4891ecb74777a60800000000000000
+      internalID: 7671728565336507582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_29
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 10
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f46b7a26d0e44340800000000000000
+      internalID: 4847246309397849333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_30
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 36
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae7df05f5913f570800000000000000
+      internalID: 8499164818949635748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_31
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 10
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad5efc07fd191f50800000000000000
+      internalID: 6852541254933044650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_32
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 10
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf76ecadc92cdec0800000000000000
+      internalID: -3540909243674230842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_33
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 10
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c1ebddb8f2cea10800000000000000
+      internalID: 1939977817257024662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_34
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 10
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdd216bb8fefd3e0800000000000000
+      internalID: -2026637923959251461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_35
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 10
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb407753e3eb82920800000000000000
+      internalID: 2965829529017713854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_36
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 10
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55f01232b0df3190800000000000000
+      internalID: -7980430550914501281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_37
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 10
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612fce1953fb893c0800000000000000
+      internalID: -4352518803051187690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_38
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 10
+        width: 6
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bce3e1e771011f0800000000000000
+      internalID: -1076334480500798711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Influence UI_39
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 10
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b91ec76de74f9000800000000000000
+      internalID: 44833606271375801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Influence UI_0: -4366416849187003973
+      Influence UI_1: -5335824641025110486
+      Influence UI_10: 8735870790627062675
+      Influence UI_11: -9099024392026715138
+      Influence UI_12: 2166320147219815066
+      Influence UI_13: 5766861777215757473
+      Influence UI_14: 3637302792397131262
+      Influence UI_15: 6658949571923880379
+      Influence UI_16: -1572378809951618389
+      Influence UI_17: -3293870390567458806
+      Influence UI_18: -7764325834314052600
+      Influence UI_19: 8006074562209004688
+      Influence UI_2: -3767809202317643111
+      Influence UI_20: 4291051772711054424
+      Influence UI_21: -1789215486217236945
+      Influence UI_22: 3836410881025383243
+      Influence UI_23: 6705558741942795183
+      Influence UI_24: 8639324288828729745
+      Influence UI_25: -8943174377073764199
+      Influence UI_26: -2199424596525791573
+      Influence UI_27: 2847813637056625778
+      Influence UI_28: 7671728565336507582
+      Influence UI_29: 4847246309397849333
+      Influence UI_3: -7058029282685804434
+      Influence UI_30: 8499164818949635748
+      Influence UI_31: 6852541254933044650
+      Influence UI_32: -3540909243674230842
+      Influence UI_33: 1939977817257024662
+      Influence UI_34: -2026637923959251461
+      Influence UI_35: 2965829529017713854
+      Influence UI_36: -7980430550914501281
+      Influence UI_37: -4352518803051187690
+      Influence UI_38: -1076334480500798711
+      Influence UI_39: 44833606271375801
+      Influence UI_4: 2193792919287341316
+      Influence UI_5: -3369958902031214574
+      Influence UI_6: 8012457773725819164
+      Influence UI_7: 3930518901134348520
+      Influence UI_8: -7706688621482535850
+      Influence UI_9: -8688606587166755313
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

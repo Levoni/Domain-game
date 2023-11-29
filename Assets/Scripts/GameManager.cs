@@ -27,6 +27,9 @@ public class GameManager : MonoBehaviour
    public TMP_Dropdown dropdown;
    public GameObject button;
    public GameObject endUI;
+   public GameObject UploadText;
+   public GameObject QuickInfo;
+   public GameObject Menu;
 
    const int SMALL_BONUS = 5;
    const int MEDIUM_BONUS = 10;
@@ -157,6 +160,10 @@ public class GameManager : MonoBehaviour
    }
    public void HandlePowerClick(Power power)
    {
+      if(state != GameState.Play)
+      {
+         return;
+      }
       //Deselct power if already selected
       if(currentPower != Power.none && currentPower == power)
       {
@@ -202,6 +209,10 @@ public class GameManager : MonoBehaviour
    }
    public void HandleBuildClick()
    {
+      if(state != GameState.Play)
+      {
+         return;
+      }
       if (remainingMoves > 0)
       {
          var card = Board[currentLocation].GetComponent<Card>();
@@ -212,8 +223,8 @@ public class GameManager : MonoBehaviour
          var text = item.text;
          if (text == "Market")
          {
-            marketMultiplier += .2f * multiplier;
-            resources += (int)(SMALL_BONUS * marketMultiplier);
+            marketMultiplier += .3f * multiplier;
+            resources += (int)(SMALL_BONUS * multiplier * marketMultiplier);
             hasBuildMarketThisRound = true;
             card.SetBuilding(Building.Market);
          }
@@ -234,11 +245,18 @@ public class GameManager : MonoBehaviour
          }
          remainingMoves--;
          UpdateText();
+         dropdown.ClearOptions();
+         dropdown.gameObject.SetActive(false);
+         button.SetActive(false);
       }
    }
 
    public void HandleUniquePowerClick(UniquePower power)
    {
+      if(state != GameState.Play)
+      {
+         return;
+      }
       //rally
       if (power == UniquePower.rally)
       {
@@ -404,6 +422,10 @@ public class GameManager : MonoBehaviour
       dropdown.ClearOptions();
       dropdown.gameObject.SetActive(false);
       button.SetActive(false);
+      if(card.building != Building.None)
+      {
+         return;
+      }
       if ( card.id == 5 )
       {
          dropdown.gameObject.SetActive(true);
@@ -529,9 +551,16 @@ public class GameManager : MonoBehaviour
       var password = PlayerPrefs.GetString("password","");
       if(!string.IsNullOrWhiteSpace(username) && !string.IsNullOrWhiteSpace(password))
       {
-         var client = new HttpClient();
-         HttpContent content = new StringContent(JsonUtility.ToJson(new HighScoreObject("Domain", score, username, password)), Encoding.UTF8, "application/json");
-         var response = await client.PostAsync(baseURL + "/highscore/submit", content);
+         var helper = new HTTPRequestHelper();
+         UploadText.GetComponent<TextMeshProUGUI>().text = "Uploading Score...";
+         var success = await helper.SendSetHighScoreRequet(score);
+         if(success)
+         {
+            UploadText.GetComponent<TextMeshProUGUI>().text = "Uploaded Score";
+         } else
+         {
+            UploadText.GetComponent<TextMeshProUGUI>().text = "Failed to Upload Score";
+         } 
       }
    }
    private void SetLocalHighScore(int score)
@@ -595,21 +624,21 @@ public class GameManager : MonoBehaviour
          }
       }
    }
-}
 
-public class HighScoreObject
-{
-   public string game;
-   public int score;
-   public string userName;
-   public string password;
-   public HighScoreObject(string game, int score, string userName, string password)
+   #region UIMethods
+   public void display(bool isVisible, string ui)
    {
-      this.game = game;
-      this.score = score;
-      this.userName = userName;
-      this.password = password;
+      if(ui == "QuickInfo")
+      {
+         state = isVisible ? GameState.Menu : GameState.Play;
+         QuickInfo.SetActive(isVisible);
+      } else if(ui == "Menu")
+      {
+         state = isVisible ? GameState.Menu : GameState.Play;
+         Menu.SetActive(isVisible);
+      }
    }
+   #endregion
 }
 
 public enum Power

@@ -1,3 +1,4 @@
+using NUnit.Framework.Interfaces;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ public class MainMenuManager : MonoBehaviour
    public GameObject MainMenuUI;
    public GameObject CreditUI;
    public GameObject HighScoreUI;
+   public GameObject HowToPlayUI;
 
    public GameObject usernameInput;
    public GameObject passwordInput;
@@ -21,9 +23,9 @@ public class MainMenuManager : MonoBehaviour
    public GameObject highScoreListStart;
    public GameObject highScorePrefab;
 
-   //string baseURL = "http://localhost:3752";
-   string baseURL = "http://levonpersonalplayarea.com/iisnodetest";
-
+   public int highScorePage = 0;
+   public GameObject highScoreNextButton;
+   public GameObject highScorePrevButton;
 
    public void ViewUI(string UIType)
    {
@@ -48,6 +50,11 @@ public class MainMenuManager : MonoBehaviour
          HighScoreUI.SetActive(true);
          GetHighScores();
       }
+      else if (UIType == "howtoplay")
+      {
+         DisableAllUI();
+         HowToPlayUI.SetActive(true);
+      }
    }
 
    public async void Login()
@@ -55,47 +62,43 @@ public class MainMenuManager : MonoBehaviour
       var userNameText = usernameInput.GetComponent<TMP_InputField>().text;
       var passwordText = passwordInput.GetComponent<TMP_InputField>().text;
       loginResult.GetComponent<TextMeshProUGUI>().SetText("Logging in...");
-      var client = new HttpClient();
-      HttpContent content = new StringContent(JsonUtility.ToJson(new LoginPaylad(userNameText, passwordText)), Encoding.UTF8, "application/json");
-      try
+      var helper = new HTTPRequestHelper();
+      var success = await helper.SendLoginRequest(userNameText, passwordText);
+      if (success)
       {
-         var response = await client.PostAsync(baseURL + "/login", content);
-         if (response.IsSuccessStatusCode)
-         {
-            var json = await response.Content.ReadAsStringAsync();
-            var loginResponse = JsonUtility.FromJson<LoginResponsePayload>(json);
-            if (!string.IsNullOrEmpty(loginResponse.token))
-            {
-               PlayerPrefs.SetString("username", userNameText);
-               PlayerPrefs.SetString("password", passwordText);
-               userNameMainText.GetComponent<TextMeshProUGUI>().SetText("User: " + userNameText);
-               loginResult.GetComponent<TextMeshProUGUI>().SetText("Logged in as user: " + userNameText);
-            }
-         }
-         else
-         {
-            loginResult.GetComponent<TextMeshProUGUI>().SetText("Failed to log in as user: " + userNameText);
-         }
+         PlayerPrefs.SetString("username", userNameText);
+         PlayerPrefs.SetString("password", passwordText);
+         userNameMainText.GetComponent<TextMeshProUGUI>().SetText("User: " + userNameText);
+         loginResult.GetComponent<TextMeshProUGUI>().SetText("Logged in as user: " + userNameText);
       }
-      catch (Exception ex)
+      else
       {
          loginResult.GetComponent<TextMeshProUGUI>().SetText("Failed to log in as user: " + userNameText);
       }
-
    }
 
+   public void Logout()
+   {
+      PlayerPrefs.DeleteKey("username");
+      PlayerPrefs.DeleteKey("password");
+      userNameMainText.GetComponent<TextMeshProUGUI>().SetText("User: ");
+      loginResult.GetComponent<TextMeshProUGUI>().SetText("Logged out");
+   }
    public async void GetHighScores()
    {
       highScoreListStart.GetComponent<TextMeshProUGUI>().text = "Loading...";
       var local = GameObject.Find("Local").GetComponent<Checkbox>().GetValue();
       var daily = GameObject.Find("Daily").GetComponent<Checkbox>().GetValue();
+      highScoreNextButton.SetActive(false);
+      highScorePrevButton.SetActive(false);
       if (local)
       {
          string highScoreString = string.Empty;
-         if(daily)
+         if (daily)
          {
             highScoreString = PlayerPrefs.GetString("localDailyHighScore");
-         } else
+         }
+         else
          {
             highScoreString = PlayerPrefs.GetString("localHighScore");
          }
@@ -113,10 +116,20 @@ public class MainMenuManager : MonoBehaviour
             scores = scores.OrderByDescending(x => x.score).ToList();
             foreach (HighScore highScore in scores)
             {
-               var newObject = GameObject.Instantiate(highScorePrefab, highScoreListStart.transform);
-               newObject.transform.localPosition = new Vector3(-200, -100 * count, 0);
-               newObject.GetComponent<TextMeshProUGUI>().text = (count + 1).ToString() + ". " + highScore.display_name + ": " + highScore.score;
-               count++;
+               if (count < 5)
+               {
+                  var newObject = GameObject.Instantiate(highScorePrefab, highScoreListStart.transform);
+                  newObject.transform.localPosition = new Vector3(-400, -100 * count, 0);
+                  newObject.GetComponent<TextMeshProUGUI>().text = (count + 1).ToString() + ". " + highScore.display_name + ": " + highScore.score;
+                  count++;
+               }
+               if (count >= 5)
+               {
+                  var newObject = GameObject.Instantiate(highScorePrefab, highScoreListStart.transform);
+                  newObject.transform.localPosition = new Vector3(400, -100 * (count - 5), 0);
+                  newObject.GetComponent<TextMeshProUGUI>().text = (count + 1).ToString() + ". " + highScore.display_name + ": " + highScore.score;
+                  count++;
+               }
             }
          }
          else
@@ -132,60 +145,74 @@ public class MainMenuManager : MonoBehaviour
       }
       else
       {
-         try
+         var helper = new HTTPRequestHelper();
+         var scores = await helper.GetHighScores(daily, highScorePage);
+         if (scores != null)
          {
-            var client = new HttpClient();
-            var date = DateTime.Now;
-            var dateString = daily ? "&date=" + date.ToString() : "";
-            var url = baseURL + "/highscore?game=Domain&limit=10" + dateString;
-            var response = await client.GetAsync(url);
-            if (response.IsSuccessStatusCode)
+            if (scores.Count > 0)
             {
-               var json = await response.Content.ReadAsStringAsync();
-
-               var scoreResponse = JsonUtility.FromJson<HighScoreResponsePayload>(json);
-               if (scoreResponse.data.Count > 0)
+               highScoreListStart.GetComponent<TextMeshProUGUI>().text = "";
+               var num = highScoreListStart.transform.childCount;
+               for (int i = num - 1; i >= 0; i--)
                {
-                  highScoreListStart.GetComponent<TextMeshProUGUI>().text = "";
-                  var num = highScoreListStart.transform.childCount;
-                  for (int i = num - 1; i >= 0; i--)
-                  {
-                     GameObject.Destroy(highScoreListStart.transform.GetChild(i).gameObject);
-                  }
-                  var count = 0;
-                  var scores = scoreResponse.data;
-                  scores = scores.OrderByDescending(x => x.score).ToList();
-                  foreach (HighScore highScore in scores)
+                  GameObject.Destroy(highScoreListStart.transform.GetChild(i).gameObject);
+               }
+               var count = 0;
+               scores = scores.OrderByDescending(x => x.score).ToList();
+               foreach (HighScore highScore in scores)
+               {
+                  if(count < 5)
                   {
                      var newObject = GameObject.Instantiate(highScorePrefab, highScoreListStart.transform);
-                     newObject.transform.localPosition = new Vector3(-200, -100 * count, 0);
-                     newObject.GetComponent<TextMeshProUGUI>().text = (count + 1).ToString() + ". " + highScore.display_name + ": " + highScore.score;
+                     newObject.transform.localPosition = new Vector3(-400, -100 * count, 0);
+                     newObject.GetComponent<TextMeshProUGUI>().text = ((count + (highScorePage * helper.highScoreLimitNum)) + 1).ToString() + ". " + highScore.display_name + ": " + highScore.score;
+                     count++;
+                  } else if(count >= 5)
+                  {
+                     var newObject = GameObject.Instantiate(highScorePrefab, highScoreListStart.transform);
+                     newObject.transform.localPosition = new Vector3(400, -100 * (count - 5), 0);
+                     newObject.GetComponent<TextMeshProUGUI>().text = ((count + (highScorePage * helper.highScoreLimitNum)) + 1).ToString() + ". " + highScore.display_name + ": " + highScore.score;
                      count++;
                   }
                }
-               else
+               if(scores.Count == helper.highScoreLimitNum)
                {
-                  var num = highScoreListStart.transform.childCount;
-                  for (int i = num - 1; i >= 0; i--)
-                  {
-                     GameObject.Destroy(highScoreListStart.transform.GetChild(i).gameObject);
-                  }
-                  highScoreListStart.GetComponent<TextMeshProUGUI>().text = "No High Scores";
+                  highScoreNextButton.SetActive(true);
+               }
+               if(highScorePage > 0)
+               {
+                  highScorePrevButton.SetActive(true);
                }
             }
             else
             {
-               highScoreListStart.GetComponent<TextMeshProUGUI>().text = "Failed to get high scores";
+               var num = highScoreListStart.transform.childCount;
+               for (int i = num - 1; i >= 0; i--)
+               {
+                  GameObject.Destroy(highScoreListStart.transform.GetChild(i).gameObject);
+               }
+               highScoreListStart.GetComponent<TextMeshProUGUI>().text = "No High Scores";
             }
          }
-         catch (Exception ex)
+         else
          {
             highScoreListStart.GetComponent<TextMeshProUGUI>().text = "Failed to get high scores";
          }
+
       }
 
    }
 
+   public void UpdateHSPage(int incriment)
+   {
+      highScorePage += incriment;
+      GetHighScores();
+   }
+
+   public void Quit()
+   {
+      Application.Quit();
+   }
    // Start is called before the first frame update
    void Start()
    {
@@ -230,55 +257,10 @@ public class MainMenuManager : MonoBehaviour
       MainMenuUI.SetActive(false);
       CreditUI.SetActive(false);
       HighScoreUI.SetActive(false);
-   }
-}
-public class LoginPaylad
-{
-   public string name;
-   public string password;
-
-   public LoginPaylad(string name, string password)
-   {
-      this.name = name;
-      this.password = password;
-   }
-}
-public class LoginResponsePayload
-{
-   public string token;
-   public LoginResponsePayload(string token)
-   {
-      this.token = token;
+      HowToPlayUI.SetActive(false);
    }
 }
 
-
-public class HighScorePayload
-{
-   public string game;
-   public int limit;
-   public HighScorePayload(string game, int limit)
-   {
-      this.game = game;
-      this.limit = limit;
-   }
-}
-
-[System.Serializable]
-public class HighScoreResponsePayload
-{
-   public string success;
-   public List<HighScore> data;
-}
-
-[System.Serializable]
-public class HighScore
-{
-   public string game;
-   public string user_name;
-   public int score;
-   public string display_name;
-}
 [System.Serializable]
 public class Leaderboard
 {

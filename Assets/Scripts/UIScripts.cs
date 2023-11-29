@@ -20,6 +20,26 @@ public class UIScripts : MonoBehaviour
       SceneManager.LoadScene(0);
    }
 
+   public void Resume()
+   {
+      Manager.display(false, "Menu");
+   }
+
+   public void pause()
+   {
+      Manager.display(true, "Menu");
+   }
+
+   public void showQuckUI()
+   {
+      Manager.display(true, "QuickInfo");
+   }
+
+   public void hideQuickUI ()
+   {
+      Manager.display(false, "QuickInfo");
+   }
+
    public void Build()
    {
       Manager.HandleBuildClick();

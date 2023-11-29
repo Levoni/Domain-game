@@ -24,6 +24,11 @@ public class MainMenuUi : MonoBehaviour
       manager.Login();
    }
 
+   public void Logout()
+   {
+      manager.Logout();
+   }
+
    public void ViewMainMenu()
    {
       manager.ViewUI("main");
@@ -45,11 +50,21 @@ public class MainMenuUi : MonoBehaviour
 
    public void ViewHowToPlay()
    {
-
+        manager.ViewUI("howtoplay");
    }
 
-    // Start is called before the first frame update
-    void Start()
+   public void NextHighScorePage()
+   {
+      manager.UpdateHSPage(1);
+   }
+
+   public void PrevHighScorePage()
+   {
+      manager.UpdateHSPage(-1);
+   }
+
+   // Start is called before the first frame update
+   void Start()
    {
 
    }
