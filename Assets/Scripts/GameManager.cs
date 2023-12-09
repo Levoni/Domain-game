@@ -534,16 +534,18 @@ public class GameManager : MonoBehaviour
    }
    private void EndGame(bool win)
    {
-      var equalResourceScore = Mathf.Min(Mathf.Max(soldiers, 0),Mathf.Max(resources, 0));
-      var differentResourceScore = soldiers - equalResourceScore + resources - equalResourceScore;
-      var totalResourceScore = equalResourceScore * 3 + differentResourceScore;
-      var score = win ? citizens + totalResourceScore : totalResourceScore;
-      endUI.SetActive(true);
-      state = GameState.End;
-      GameObject.Find("EndGame").GetComponent<TextMeshProUGUI>().text = win ? "Win!" : "Game Over";
-      GameObject.Find("EndScore").GetComponent<TextMeshProUGUI>().text = "Score: " + score;
-      SetLocalHighScore(score);
-      SetHighScore(score);
+      if (state != GameState.End) {
+         var equalResourceScore = Mathf.Min(Mathf.Max(soldiers, 0), Mathf.Max(resources, 0));
+         var differentResourceScore = soldiers - equalResourceScore + resources - equalResourceScore;
+         var totalResourceScore = equalResourceScore * 3 + differentResourceScore;
+         var score = win ? citizens + totalResourceScore : totalResourceScore;
+         endUI.SetActive(true);
+         state = GameState.End;
+         GameObject.Find("EndGame").GetComponent<TextMeshProUGUI>().text = win ? "Win!" : "Game Over";
+         GameObject.Find("EndScore").GetComponent<TextMeshProUGUI>().text = "Score: " + score;
+         SetLocalHighScore(score);
+         SetHighScore(score);
+      }
    }
    private async void SetHighScore(int score)
    {
@@ -602,7 +604,7 @@ public class GameManager : MonoBehaviour
       bool isHighscore = false;
       for(int i = 0; i < maxListSize; i++)
       {
-         if(scores.Count >= i)
+         if(scores.Count <= i)
          {
             scores.Add(holdingScore);
             break;
@@ -612,7 +614,8 @@ public class GameManager : MonoBehaviour
             var tempScore = holdingScore;
             holdingScore = scores[i];
             scores[i] = tempScore;
-         } else
+         } 
+         else
          {
             if(holdingScore.score > scores[i].score)
             {
@@ -621,6 +624,13 @@ public class GameManager : MonoBehaviour
                scores[i] = tempScore;
                isHighscore = true;
             }
+         }
+      }
+      if(scores.Count > maxListSize)
+      {
+         for(int i = scores.Count - 1; i >= maxListSize; i--)
+         {
+            scores.RemoveAt(i);
          }
       }
    }

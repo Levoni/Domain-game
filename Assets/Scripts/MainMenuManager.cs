@@ -122,8 +122,7 @@ public class MainMenuManager : MonoBehaviour
                   newObject.transform.localPosition = new Vector3(-400, -100 * count, 0);
                   newObject.GetComponent<TextMeshProUGUI>().text = (count + 1).ToString() + ". " + highScore.display_name + ": " + highScore.score;
                   count++;
-               }
-               if (count >= 5)
+               } else if (count >= 5)
                {
                   var newObject = GameObject.Instantiate(highScorePrefab, highScoreListStart.transform);
                   newObject.transform.localPosition = new Vector3(400, -100 * (count - 5), 0);
@@ -191,7 +190,14 @@ public class MainMenuManager : MonoBehaviour
                {
                   GameObject.Destroy(highScoreListStart.transform.GetChild(i).gameObject);
                }
-               highScoreListStart.GetComponent<TextMeshProUGUI>().text = "No High Scores";
+               if (highScorePage > 0)
+               {
+                  highScorePrevButton.SetActive(true);
+                  highScoreListStart.GetComponent<TextMeshProUGUI>().text = "No More High Scores";
+               } else
+               {
+                  highScoreListStart.GetComponent<TextMeshProUGUI>().text = "No High Scores";
+               }
             }
          }
          else

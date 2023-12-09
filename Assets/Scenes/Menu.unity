@@ -10048,20 +10048,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Your country has come under imminent threat of invasion. You have little
-    time to prepare the required resources and soldiers before the attack and all
-    the domain''s citizens are killed.
-
-
-    You will need to travel between the
-    different regions, utilizing the different location abilities, while avioding
-    bandits, plauges, or assasins.
-
-
-    Once you move to the next region while having
-    the required supplies and soldiers, you win.
-
-'
+  m_text: "\u200BYour country has come under imminent threat of invasion. You have
+    little time to prepare the required resources and soldiers before the attack
+    and all the domain's citizens are killed.\r\n\r\nYou will need to travel between
+    the different regions, utilizing the different location abilities, while avoiding
+    bandits, plagues, or assassins.\n\nOnce you move to the next region while having
+    the required supplies and soldiers, you win.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e2c236475f7fae942849523ffff719a0, type: 2}
   m_sharedMaterial: {fileID: 6502443408597284086, guid: e2c236475f7fae942849523ffff719a0, type: 2}

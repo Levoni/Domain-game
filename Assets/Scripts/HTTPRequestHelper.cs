@@ -12,8 +12,8 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class HTTPRequestHelper : MonoBehaviour
 {
-   string baseURL = "http://localhost:3752";
-   //string baseURL = "http://levonpersonalplayarea.com/iisnodetest";
+   //string baseURL = "http://localhost:3752";
+   string baseURL = "http://levonpersonalplayarea.com/iisnodetest";
    string gameName = "Domain";
    string submitHighScoreUrl = "/highscore/submit";
    string getHighScoreUrl = "/highscore";
